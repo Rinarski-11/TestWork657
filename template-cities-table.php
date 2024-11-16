@@ -14,6 +14,7 @@ $countries = get_terms(array(
     'taxonomy' => 'countries', // Specify the "countries" taxonomy.
     'hide_empty' => false, // Include terms even if no cities are assigned.
 ));
+
 ?>
 
 <div>
@@ -110,7 +111,6 @@ get_footer();
 ?>
 
 <script>
-    // Add event listener for the search bar.
     document.getElementById('city-search').addEventListener('input', function() {
         var searchTerm = this.value.toLowerCase();
 
@@ -153,7 +153,6 @@ get_footer();
         element.innerHTML = newText;
     }
 </script>
-
 
 <style>
     .highlight {
@@ -200,5 +199,4 @@ get_footer();
     .country-row h2 {
         margin-bottom: 10px;
     }
-
 </style>

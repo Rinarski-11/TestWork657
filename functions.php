@@ -106,19 +106,6 @@ function create_countries_taxonomy() {
 add_action('init', 'create_countries_taxonomy');
 
 /**
- * Add JavaScript for city search functionality.
- *
- * Enqueues a custom JavaScript file that enables searching for cities via Ajax. Passes the Ajax URL to the script.
- */
-function enqueue_city_search_script() {
-    wp_enqueue_script('city-search', get_template_directory_uri() . '/city-search.js', ['jquery'], null, true);
-    wp_localize_script('city-search', 'citySearch', [
-        'ajax_url' => admin_url('admin-ajax.php'),
-    ]);
-}
-add_action('wp_enqueue_scripts', 'enqueue_city_search_script');
-
-/**
  * Handle city search requests via Ajax.
  *
  * Queries the "Cities" post type based on a search term sent via an Ajax request and returns the results as table rows.
