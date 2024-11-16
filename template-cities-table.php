@@ -1,4 +1,8 @@
 <?php
+/*
+Template Name: Countries and Cities
+*/
+
 // Load the header template.
 get_header();
 global $wpdb;
