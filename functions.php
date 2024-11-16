@@ -65,9 +65,11 @@ function render_cities_meta_box($post) {
     $longitude = get_post_meta($post->ID, 'longitude', true);
     ?>
     <label for="latitude">Latitude:</label>
+    <br>
     <input type="text" name="latitude" value="<?php echo esc_attr($latitude); ?>" />
     <br>
     <label for="longitude">Longitude:</label>
+    <br>
     <input type="text" name="longitude" value="<?php echo esc_attr($longitude); ?>" />
     <?php
 }
