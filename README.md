@@ -68,7 +68,6 @@ This WordPress theme implements the following functionalities:
 ## Requirements
 - **WordPress** version 5.0 or higher.
 - **Storefront** theme installed and activated.
-- **OpenWeatherMap API** key for the widget to work correctly. You can sign up for a free key [here](https://openweathermap.org/appid).
 
 ## Custom Action Hooks
 - The theme includes custom action hooks before and after the countries-cities table. You can hook additional functionality or custom code into these areas if needed.
