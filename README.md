@@ -48,11 +48,6 @@ This WordPress theme implements the following functionalities:
 2. To add a new country, go to **Cities > Countries** and add new countries.
 3. When creating or editing a city post, you can assign it to a country using the **Countries** taxonomy.
 
-### City Temperature Widget:
-1. Go to **Appearance > Widgets** in the WordPress admin.
-2. Find the **City Temperature Widget** in the available widget list.
-3. Add the widget to any widgetized area (sidebar, footer, etc.).
-4. The widget will display the city name and the current temperature for the selected city, fetched from the OpenWeatherMap API.
 
 ### Custom Template for Countries and Cities Table:
 1. To view the countries and cities table, navigate to the custom template page (e.g., `/countries-cities`).
